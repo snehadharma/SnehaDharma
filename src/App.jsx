@@ -59,11 +59,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ResumeGrid />} />
             <Route path="/projects" element={<div>Projects Content</div>} />
-            <Route path="/experience" element={<div>Experience Content</div>} />
-            <Route path="/education" element={<div>Education Content</div>} />
-            <Route path="/skills" element={<div>Skills Content</div>} />
-            <Route path="/involvement" element={<div>University Involvement Content</div>} />
-            <Route path="/courses" element={<div>Coursework Content</div>} />
+            <Route path="/resume" element={<div>Resume Content</div>} />
             <Route path="/contact" element={<div>Contact Content</div>} />
           </Routes>
         </MainContent>

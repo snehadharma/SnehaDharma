@@ -71,28 +71,13 @@ const Navigation = () => {
           </Link>
         </NavItem>
         <NavItem>
-          <Link to="/experience" className={location.pathname === "/experience" ? "active" : ""}>
-            Experience
+          <Link to="/resume" className={location.pathname === "/resume" ? "active" : ""}>
+            Resume
           </Link>
         </NavItem>
         <NavItem>
-          <Link to="/education" className={location.pathname === "/education" ? "active" : ""}>
-            Education
-          </Link>
-        </NavItem>
-        <NavItem>
-          <Link to="/skills" className={location.pathname === "/skills" ? "active" : ""}>
-            Skills
-          </Link>
-        </NavItem>
-        <NavItem>
-          <Link to="/involvement" className={location.pathname === "/involvement" ? "active" : ""}>
-            Activities
-          </Link>
-        </NavItem>
-        <NavItem>
-          <Link to="/courses" className={location.pathname === "/courses" ? "active" : ""}>
-            Courses
+          <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>
+            Contact
           </Link>
         </NavItem>
       </NavList>
