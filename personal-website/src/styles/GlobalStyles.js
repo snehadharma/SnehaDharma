@@ -4,9 +4,9 @@ const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
   
   :root {
-    --primary-color: #A5B4FF;
+    --primary-color:rgb(206, 214, 255);
     --secondary-color: #FFB5D4;
-    --accent-color: #E2B4FF;
+    --accent-color:rgb(255, 180, 223);
     --background-color: #FFFFFF;
     --text-color: #2D3748;
     --border-color: #C5CDFF;
